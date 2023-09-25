@@ -1,0 +1,22 @@
+package utils;
+
+import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
+
+public class JSFunction {
+    public static void alertLocation(HttpServletResponse response, String url, String msg) throws IOException {
+        String script = "<script>"
+                + " alert('" + msg + "');"
+                + " location.href = '" + url + "';"
+                + "</script>";
+        response.getWriter().println(script);
+    }
+
+    public static void alertBack(HttpServletResponse response, String msg) throws IOException {
+        String script = "<script>"
+                + " alert('" + msg + "');"
+                + " history.back();"
+                + "</script>";
+        response.getWriter().println(script);
+    }
+}

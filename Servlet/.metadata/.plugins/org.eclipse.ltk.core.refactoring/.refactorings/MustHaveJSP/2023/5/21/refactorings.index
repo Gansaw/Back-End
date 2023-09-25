@@ -1,0 +1,17 @@
+1684737344058	Rename resource 'LoginFomr.jsp'
+1684739759004	Delete element
+1684819492026	Delete element
+1684820161700	Move 'IncludeMain.jsp' to '07ActionTag'
+1684824922874	Move 'ParamInclude.jsp' to 'inc'
+1684826512128	Move 'List.jsp' to 'BoardDAO'
+1684826518366	Move 'List.jsp' to '08Board'
+1684826521395	Delete element
+1684828194515	Delete element
+1684829009903	Move file
+1684829163218	Move 'LoginProcess.jsp' to '08Board'
+1684829318421	Move 'LoginProcess.jsp' to '06Session'
+1684907122438	Delete element
+1684909437045	Rename resource 'FormSummit.jsp'
+1684918851519	Delete element
+1685000544253	Move 'If.jsp' to 'core'
+1685000548106	Move 'OtherPage.jsp' to 'inc'
